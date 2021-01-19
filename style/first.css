@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-image: url('../img/nbarbg.jpg');
+  float: left;
+}
+
+/* Style the topnav links */
+.topnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+ float: left;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #76D2FB;
+/*  background-color: #ddd; */
+  color: black;
+ float: left;
+}
+
+/* Style the content */
+.content {
+  padding: 10px;
+  width: 980px;
+  height: auto; /* Should be removed. Only for demonstration */
+  float: left;
+}
+
+/* Style the footer */
+.footer {
+  float: left;
+  width: 100%;
+  background-image: url('../img/restbg.jpg');
+  height: 375px;
+}
+
+.footl {
+  background-image: url('../img/footimg.jpg');
+  height: 375px;
+  width: 979px;
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+.header {
+  background-image: url('../img/restbg.jpg'); 
+  width: 100%;
+  height: 341px;
+  float: left;
+}
+
+.hleader {
+  background-image: url('../img/headmain.jpg'); 
+  width: 979px;
+  height: 341px;
+  float: left;
+}
+
+.navbar {
+ background-color: #76D2FB;
+ height: 40px;
+ vertical-align: middle;
+ float: left;
+}
+
+.navigacija {
+ height: 40px;
+ width: 100%;
+ float: left;
+ background-image: url('../img/nbarbg.jpg');
+}
+
+.navstart {
+ width: 40px;
+ height: 40px;
+ float: left;
+}
+
+.navitem {
+ width: 940px;
+ height: 40px;
+ padding: 6 0 0 0;
+ float: left;
+}
+
+.mainhead {
+  background-color: white;
+  height: 200px;
+  float: left;
+}
+
+.resthead {
+  border-solid: 1px;
+  border-color: white;
+  height: 341px;
+  width: auto;
+  background-image: url('img/headmain.jpg'); 
+  float: left;
+}
+
+.shipbg {
+  background-image: url('../img/shiphorizontalbg.jpg');
+  width: 970px;
+  height: 97px;
+  color: #76D2FB;
+  padding: 20 0 0 0;
+  text-align: right;
+  float: left;
+}
+
+.articlecontent {
+  height: auto;
+  padding: 20px;
+ float: left;
+}
+
+.sitem {
+ height: auto;
+ width: auto;
+ float: left;
+ padding: 20px;
+}
+.cgrid {
+ width: auto;
+}
